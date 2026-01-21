@@ -1,0 +1,15 @@
+{
+  "name": "elevator-challenge",
+  "version": "1.0.0",
+  "description": "UTD Elevator Challenge Implementation",
+  "type": "module",
+  "scripts": {
+    "test": "mocha tests/*.cjs",
+    "start": "cd server && node index.js",
+    "dev:react": "cd web-react && npm run dev"
+  },
+  "devDependencies": {
+    "chai": "^4.3.10",
+    "mocha": "^10.2.0"
+  }
+}
